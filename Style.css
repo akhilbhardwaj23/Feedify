@@ -1,0 +1,33 @@
+﻿
+span, a {
+    color:black;
+}
+span {
+    padding-left: 2px;
+}
+span.glyphicon {
+    width: auto;
+}
+div.page-content
+{
+    overflow: hidden;
+    position: absolute;
+    top: 0px; 
+    bottom: 0px;
+    left: 100px;
+    right: 0px;
+    padding: 0px 10px;
+    overflow: auto;
+}
+div.sidebar-wrapper
+{
+    padding: 10px 0;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 300px; /* same as .content left */
+    background-color: #fff;
+    border-right: 1px solid #000; 
+    z-index: 1020;
+}
