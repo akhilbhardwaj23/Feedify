@@ -1,14 +1,46 @@
-﻿
+﻿@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
 span, a {
     color: black;
 }
 
-    span.glyphicon {
-        margin-right: 5px;
+    a.feed-title {
+        font-size: 1.4em;
+        font-weight: bold;
+        text-decoration: underline;
     }
+
+.btn {
+    margin-right: 10px;
+}
+
+.btn-group {
+    margin-top:10px
+}
+
+.well-lg {
+    padding:10px;
+}
+div.comments {
+    margin-top: 10px;
+}
+
+
+span.glyphicon {
+    margin-right: 5px;
+    font-weight: bold;
+}
 
 .glyphicon:before {
     padding-right: 5px;
+}
+
+span.label-default {
+    background-color: black;
 }
 
 div.page-content {
@@ -29,5 +61,5 @@ div.sidebar-wrapper {
 }
 
 div.page-header {
-    margin-top:0px;
+    margin-top: 0px;
 }
