@@ -9,11 +9,15 @@ function parseRSS(url) {
         }
     });
 }
-function callback(data) {
-
-
+function callback(feed) {
+    feed.entries.forEach(createFeed, this);
 }
 
+function createFeed(item) {
+    var div = "<div class=\"list-group\"> <a href=\"" + item.link + "\">" + item.title + "</a></div>";
+
+    $(".feeds").append(div)
+}
 $(document).ready(
   function () {
       var urls = [];

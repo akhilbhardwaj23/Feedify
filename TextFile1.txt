@@ -1,0 +1,49 @@
+[Problem Statement]
+
+Design a WebApp displaying interactive RSS feed information of multiple sources.
+
+[Minimum Requirement]
+
+— Visually interactive design to help read RSS feeds.
+
+— Capability to dynamically add and remove multiple sources.
+
+— Consider UI/UX factors such as typography, subtle patterns/textures, user view point, icon library.
+
+[Plus Point]
+
+— Integrating plugins, external libraries (plus if it is your own creation).
+
+— You may add portfolio page comprising awesome work you have done on UI/UX. You may also link your dribbble, behance, deviantART or any external source directing to your work.
+
+— Use of extensive HTML5 / CSS3 feature, your favorite client side scripting framework (preferably ExtJS) and any design pattern library.
+
+— Use your imagination to come up with additional UI/UX features.
+
+[Guide]
+
+Emphasis on UI/UX.
+
+ExtJS / jQuery or any of your favorite client side scripting language.
+
+— http://jsfiddle.net/jhfrench/AFHfn/
+
+— http://api.jquery.com/jquery.parsexml/
+
+Use below RSS source:
+
+— https://news.ycombinator.com/rss
+
+— https://news.google.com/?output=rss
+
+— http://blog.hackerearth.com/feed
+
+— https://community.mcafee.com/blogs/feeds/blogs
+
+For bootstrap/icons/fonts:
+
+— http://getbootstrap.com/getting-started/
+
+— http://erikflowers.github.io/weather-icons/
+
+— http://subtlepatterns.com/thumbnail-view/
